@@ -1,0 +1,133 @@
+{
+    "window.title": "${rootName}${separator}${activeEditorShort} ${dirty}",
+    "window.titleSeparator": " | ",
+    "window.customMenuBarAltFocus": false,
+    "window.openFilesInNewWindow": "off",
+    "window.titleBarStyle": "custom",
+
+    "window.autoDetectHighContrast": false,
+    "window.autoDetectColorScheme": true,
+    
+    "window.density.editorTabHeight": "compact",
+    "window.commandCenter": false,
+    
+    "workbench.layoutControl.enabled": false,
+    "workbench.colorTheme": "One Monokai",
+    "workbench.preferredDarkColorTheme": "One Monokai",
+    "workbench.preferredLightColorTheme": "Night Owl Light (No Italics)",
+    "workbench.iconTheme": "vscode-icon-theme",
+    "workbench.editor.pinnedTabsOnSeparateRow":true,
+    "workbench.editor.tabSizing": "shrink",
+    "workbench.editor.pinnedTabSizing": "compact",
+    "workbench.editor.wrapTabs": true,
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.editor.mouseBackForwardToNavigate": false,
+    "workbench.editor.decorations.badges": true,
+    "workbench.enableExperiments": false,
+    "workbench.settings.enableNaturalLanguageSearch": false,
+    "workbench.editor.autoLockGroups": {
+        "default": true,
+        "terminalEditor": false
+    },
+    
+    "breadcrumbs.enabled": true,
+    "breadcrumbs.icons": true,
+    
+    "editor.fontFamily": "mononoki",
+    "editor.fontSize": 15,
+    "editor.fontWeight": "400",
+    "editor.lineNumbers": "relative",
+    "editor.renderWhitespace": "all",
+    "editor.insertSpaces": false,
+    "editor.hover.delay": 300,
+    "editor.codeActionsOnSave": [ "editor.action.indentationToTabs" ],
+    "editor.mouseWheelZoom": true,
+    "editor.formatOnSaveMode": "modifications",
+    "editor.find.seedSearchStringFromSelection": "selection",
+    "editor.cursorSurroundingLines": 2,
+    "editor.find.cursorMoveOnType": false,
+    
+    "editor.showFoldingControls": "always",
+    "editor.stickyScroll.enabled": true,
+    "editor.stickyScroll.scrollWithEditor": true,
+
+    "editor.minimap.enabled": false,
+    "editor.minimap.autohide": true,
+    "editor.minimap.scale": 3,
+    "editor.minimap.maxColumn": 80,
+    "editor.acceptSuggestionOnEnter": "smart",
+    "editor.suggest.insertMode": "replace",
+    
+    "search.showLineNumbers": true,
+    "search.collapseResults": "auto",
+    "search.smartCase": true,
+
+    "workbench.view.alwaysShowHeaderActions": true,
+    "workbench.tree.renderIndentGuides": "always",
+    "workbench.tree.indent": 14,
+
+    "files.autoGuessEncoding": true,
+
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.incrementalNaming": "smart",
+
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "git.enabled": true,
+    "git.path": "D:\\PortableApps\\PortableGit\\bin\\git.exe",
+    "files.exclude": {
+        "**/.git": false
+    },
+
+    "screencastMode.verticalOffset": 0,
+    "[javascript]": { "editor.defaultFormatter": "vscode.typescript-language-features" },
+    "[html]": { "editor.defaultFormatter": "vscode.html-language-features" },
+
+    "security.workspace.trust.untrustedFiles": "open",
+    "security.workspace.trust.enabled": false,
+    
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell"
+        },
+        "Command Prompt": {
+            "path": [
+                "${env:windir}\\Sysnative\\cmd.exe",
+                "${env:windir}\\System32\\cmd.exe"
+            ],
+            "args": [],
+            "icon": "terminal-cmd"
+        },
+        "Git Bash": {
+            "path": "D:\\PortableApps\\PortableGit\\git-bash.exe",
+        },
+        "git-cmd": {
+            "path": "D:\\PortableApps\\PortableGit\\git-cmd.exe",
+        }
+    },
+
+    "workbench.editor.defaultBinaryEditor": "hexEditor.hexedit",
+    "hexeditor.columnWidth": 16,
+    "hexeditor.showDecodedText": true,
+    "hexeditor.defaultEndianness": "little",
+    "hexeditor.inspectorType": "aside",
+
+    "zenMode.fullScreen": false,
+    "zenMode.centerLayout": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "update.mode": "start",
+    "editor.autoSurround": "never",
+    "editor.foldingHighlight": false,
+    "svg.preview.transparencyGrid": false,
+    "svg.preview.boundingBox": false,
+    "window.zoomLevel": 1,
+    "telemetry.telemetryLevel": "off",
+    "editor.formatOnSave": true,
+    "editor.accessibilitySupport": "off",
+    "editor.unicodeHighlight.nonBasicASCII": false,
+    "go.toolsManagement.autoUpdate": true,
+}

@@ -1,0 +1,12 @@
+azemoh.one-monokai
+bmewburn.vscode-intelephense-client
+dbaeumer.vscode-eslint
+golang.go
+jtlowe.vscode-icon-theme
+L13RARY.l13-diff
+ms-vscode.cmake-tools
+ms-vscode.hexeditor
+ms-vscode.vs-keybindings
+sdras.night-owl
+vitaliymaz.vscode-svg-previewer
+WakaTime.vscode-wakatime
