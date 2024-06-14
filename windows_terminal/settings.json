@@ -4,6 +4,14 @@
     "actions": 
     [
         {
+            "command": 
+            {
+                "action": "copy",
+                "singleLine": false
+            },
+            "keys": "ctrl+c"
+        },
+        {
             "command": "unbound",
             "keys": "ctrl+shift+w"
         },
@@ -60,16 +68,12 @@
             "keys": "ctrl+8"
         },
         {
-            "command": 
-            {
-                "action": "copy",
-                "singleLine": false
-            },
-            "keys": "ctrl+c"
-        },
-        {
             "command": "paste",
             "keys": "ctrl+v"
+        },
+        {
+            "command": "find",
+            "keys": "ctrl+shift+f"
         },
         {
             "command": 
@@ -79,10 +83,6 @@
                 "splitMode": "duplicate"
             },
             "keys": "alt+shift+d"
-        },
-        {
-            "command": "find",
-            "keys": "ctrl+shift+f"
         },
         {
             "command": "closePane",
@@ -146,17 +146,17 @@
             "command": 
             {
                 "action": "switchToTab",
-                "index": 5
+                "index": 6
             },
-            "keys": "ctrl+6"
+            "keys": "ctrl+7"
         },
         {
             "command": 
             {
                 "action": "switchToTab",
-                "index": 6
+                "index": 5
             },
-            "keys": "ctrl+7"
+            "keys": "ctrl+6"
         },
         {
             "command": 
@@ -169,14 +169,14 @@
     "alwaysOnTop": false,
     "alwaysShowNotificationIcon": false,
     "autoHideWindow": false,
-    "centerOnLaunch": true,
+    "centerOnLaunch": false,
     "confirmCloseAllTabs": false,
     "copyFormatting": "none",
     "copyOnSelect": true,
     "defaultProfile": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
     "disableAnimations": true,
     "experimental.rendering.forceFullRepaint": true,
-    "firstWindowPreference": "persistedWindowLayout",
+    "firstWindowPreference": "defaultProfile",
     "focusFollowMouse": true,
     "initialCols": 100,
     "initialRows": 30,
@@ -194,10 +194,11 @@
         {
             "adjustIndistinguishableColors": "never",
             "antialiasingMode": "cleartype",
-            "backgroundImage": null,
+            "backgroundImage": "D:\\configs\\windows_terminal\\background_lines.png",
             "backgroundImageAlignment": "topLeft",
-            "backgroundImageOpacity": 0.0,
+            "backgroundImageOpacity": 0.1,
             "backgroundImageStretchMode": "none",
+            "closeOnExit": "graceful",
             "colorScheme": 
             {
                 "dark": "Campbell",
@@ -208,7 +209,7 @@
             "experimental.retroTerminalEffect": false,
             "font": 
             {
-                "cellHeight": "1",
+                "cellHeight": "1.2",
                 "face": "Consolas",
                 "size": 11.0,
                 "weight": "normal"
@@ -216,8 +217,7 @@
             "opacity": 50,
             "padding": "1",
             "scrollbarState": "visible",
-            "useAcrylic": true,
-            "useAtlasEngine": false
+            "useAcrylic": true
         },
         "list": 
         [
@@ -225,7 +225,8 @@
                 "commandline": "%SystemRoot%\\System32\\cmd.exe /k cls",
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
                 "hidden": false,
-                "name": "cmd"
+                "name": "cmd",
+                "startingDirectory": null
             },
             {
                 "adjustIndistinguishableColors": "indexed",
@@ -242,35 +243,22 @@
                 "name": "PowerShell Default"
             },
             {
+                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+                "hidden": false,
+                "name": "Azure Cloud Shell",
+                "source": "Windows.Terminal.Azure"
+            },
+            {
                 "guid": "{1a5e9985-e614-56a6-8dfa-5c97556efd8c}",
-                "hidden": true,
+                "hidden": false,
                 "name": "Developer Command Prompt for VS 2022",
                 "source": "Windows.Terminal.VisualStudio"
             },
             {
                 "guid": "{662406c8-91a9-5b6a-84f2-13cf47ba69d8}",
-                "hidden": true,
+                "hidden": false,
                 "name": "Developer PowerShell for VS 2022",
                 "source": "Windows.Terminal.VisualStudio"
-            },
-            {
-                "cursorHeight": 1,
-                "font": 
-                {
-                    "size": 24.0
-                },
-                "guid": "{b93a0756-a0d5-4c6a-9992-abf7a903d323}",
-                "hidden": true,
-                "name": "sound_level",
-                "opacity": 50,
-                "padding": "0",
-                "scrollbarState": "hidden"
-            },
-            {
-                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
-                "hidden": false,
-                "name": "Azure Cloud Shell",
-                "source": "Windows.Terminal.Azure"
             }
         ]
     },
@@ -410,7 +398,7 @@
             "name": "Solarized Light",
             "purple": "#D33682",
             "red": "#DC322F",
-            "selectionBackground": "#FFFFFF",
+            "selectionBackground": "#073642",
             "white": "#EEE8D5",
             "yellow": "#B58900"
         },
@@ -456,7 +444,7 @@
             "name": "Tango Light",
             "purple": "#75507B",
             "red": "#CC0000",
-            "selectionBackground": "#FFFFFF",
+            "selectionBackground": "#555753",
             "white": "#D3D7CF",
             "yellow": "#C4A000"
         },
@@ -485,6 +473,7 @@
         }
     ],
     "showTabsInTitlebar": true,
+    "startOnUserLogin": false,
     "tabSwitcherMode": "mru",
     "tabWidthMode": "titleLength",
     "theme": "system",
